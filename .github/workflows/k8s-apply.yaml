@@ -5,6 +5,7 @@ on:
 jobs:
   apply_k8s:
     name: Verify K8s Service Account
+    environment: secrets
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
